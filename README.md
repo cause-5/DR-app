@@ -97,4 +97,4 @@ Upload a PDF and index it for the later chatbot step.
 Ask a question against the indexed PDF.
 
 
-~Weights are not part of this repo. Contact author if you wish to use model. 
+~Weights + models are not part of this repo. Too big of a file. Contact author if you wish to use model. 
