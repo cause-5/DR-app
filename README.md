@@ -95,3 +95,6 @@ Upload a PDF and index it for the later chatbot step.
 
 ### `GET /api/chat/ask?question=...`
 Ask a question against the indexed PDF.
+
+
+~Weights are not part of this repo. Contact author if you wish to use model. 
