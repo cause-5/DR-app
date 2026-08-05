@@ -1,8 +1,11 @@
 import axios from 'axios';
 import { Platform } from 'react-native';
 
-const BASE_URL = "http://10.0.0.126:8000";
 
+const BASE_URL = __DEV__
+  ? "http://10.0.0.126:8000"
+  : "https://your-service-name.onrender.com";
+  
 const api = axios.create({
   baseURL: BASE_URL,
 });
