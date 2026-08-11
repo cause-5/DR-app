@@ -15,4 +15,3 @@ pyspellchecker==0.8.1
 groq>=0.28.0
 httpx==0.28.1
 langchain-text-splitters
-react-native-markdown-display
