@@ -7,7 +7,7 @@ from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from core.config import settings
+from config import settings
 from schemas import AnalysisResponse
 from services.chat_service import SimplePdfRag
 from services.dr_service import DRPredictor
