@@ -29,13 +29,12 @@ dr_predictor = DRPredictor()
 @app.get('/health')
 def health() -> dict:
     return {
-        'status': 'ok',
         'app': settings.app_name,
         'version': settings.version,
         'model_mode': settings.model_mode,
         'quality_weights_found': settings.quality_weights.exists(),
         'dr_weights_found': settings.dr_weights.exists(),
-        "status": "healthy"
+        "status": "healthy",
     }
 
 
