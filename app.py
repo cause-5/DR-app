@@ -35,7 +35,9 @@ def health() -> dict:
         'model_mode': settings.model_mode,
         'quality_weights_found': settings.quality_weights.exists(),
         'dr_weights_found': settings.dr_weights.exists(),
+        "status": "healthy"
     }
+
 
 
 @app.get('/api/model/info')
