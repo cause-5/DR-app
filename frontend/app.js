@@ -2,6 +2,10 @@ import React, { useState, useRef } from 'react';
 import { SafeAreaView, StatusBar, StyleSheet, Animated } from 'react-native';
 import WelcomeScreen from './src/screens/WelcomeScreen';
 import DetectionScreen from './src/screens/DetectionScreen';
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 4000 
+
 
 export default function App() {
   const [screen, setScreen] = useState('Welcome');
