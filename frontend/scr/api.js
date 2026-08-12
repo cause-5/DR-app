@@ -4,10 +4,11 @@ import { Platform } from 'react-native';
 
 const BASE_URL = __DEV__
   ? "http://10.0.0.126:8000"
-  : "https://your-service-name.onrender.com";
+  : "https://dr-render.onrender.com";
   
 const api = axios.create({
   baseURL: BASE_URL,
+  timeout: 60000,
 });
 
 export const analyzeImage = async (imageUri) => {
@@ -31,6 +32,7 @@ export const analyzeImage = async (imageUri) => {
     });
       console.log("SUCCESS:", response.data);
     return response.data;
+
   } catch (error) {
     console.error('API Error /analyze:', error?.response?.data || error);
     throw error;
