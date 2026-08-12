@@ -10,7 +10,7 @@ import torch
 from PIL import Image
 from torchvision import transforms
 
-from core.config import settings
+from config import settings
 from models.quality_model import FundusQualityNet
 from services.image_io import load_pil_image, pil_to_numpy
 
