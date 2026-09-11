@@ -2,7 +2,7 @@
 End-to-end app providing early screening of diabetic retinopathy (DR), fully build and designed front end, AI chatbot assistance, FAQs, etc.
 ---
 
-## How to run on Mac in VS Code
+## How to run on Mac in VS Code LOCAL
 
 ### 1. Open Terminal
 cd to folder
@@ -98,3 +98,5 @@ Ask a question against the indexed PDF.
 
 
 ~Weights + models are not part of this repo. Too big of a file. Contact author if you wish to use model. 
+
+## How to run 
