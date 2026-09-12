@@ -100,3 +100,9 @@ Ask a question against the indexed PDF.
 ~Weights + models are not part of this repo. Too big of a file. Contact author if you wish to use model. 
 
 ## How to run 
+git clone https://github.com/cause-5/DR-app.git
+cd DR-app/frontend
+npm install
+npx expo start
+
+https://dr-render.onrender.com/docs
